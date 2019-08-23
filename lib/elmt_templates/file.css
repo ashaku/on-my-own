@@ -1,0 +1,7 @@
+
+/* Style description for html tags used in [N] element displaying */
+.[N]_{}
+
+/* Style description for html form fields needed to create new [N] element */
+div.[N] input[type=text]{border:solid 0px #fff;color:#a00;padding:0px 8px;font-size:16px;}	/* exemple of a text parameter */
+div.[N] .[N]_content textarea{font-size:0.9em;border:solid 0px #f0e8e8;padding:2px 8px;border-top:solid 1px #f0e8e8;}	/* exemple of a textarea parameter */

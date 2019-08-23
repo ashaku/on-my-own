@@ -1,0 +1,5 @@
+
+# URL rewriting : redirect [idPage]-a-page-title-used-in-link to page.php?id=[idPage]
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^$ admin.php

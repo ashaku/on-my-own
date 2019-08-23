@@ -1,0 +1,62 @@
+
+
+/* authentication form */
+.login_form{margin-top:50px;width:500px;border:ridge 1px #889;box-shadow:4px 4px 42px 6px #889;border-radius:12px;padding:16px;}
+
+/* Admin navigation menu */
+#admin_nav{width:1000px;padding:24px 3px;}
+#admin_nav ul{display:inline-block;width:100%;}
+#admin_nav ul li{display:inline-block;margin:0px 14px;padding:2px 12px;border-radius:12px;height:25px;text-align:center;color:#666;background-color:#eee;box-shadow:1px 1px 6px #889;}
+#admin_nav ul li ul li{display:inline-block;font-size:12px;margin:0px 4px;padding:2px 8px;border-radius:10px;height:20px;color:#666;background:linear-gradient(0deg,#ddd,#fff);box-shadow:0px 0px 2px #889;}
+
+/* Submenu (breadcrumb) */
+#submenu{height:24px;padding:6px 16px;background:linear-gradient(#fff,#ffe);margin:6px 16px;border-bottom:solid 1px #eec;border-radius:16px;}
+
+/* General admin content */
+.content_group{overflow:hidden;padding:12px;margin:10px 10px;text-align:left;font-size:0.9em;backgound:linear-gradient(#fff,#eee);}
+.content_group p{margin-left:10px;}
+
+/* admin site */
+.admin_site_btn{width:920;padding:8px;margin:16px 0px;border-bottom:solid 1px #eee;background-color:#eee;cursor:pointer;}
+.admin_site_btn p{width:100%;backgrund-color:#ffe;}
+.admin_site_btn img{position:relative;top:4px;left:1px;}
+.system{font-family:consolas;font-weight:bold;font-size:0.9em;color:#49f;}
+.site textarea{font-size:0.9em;font-family:consolas;heght:600px;width:100%;}
+
+/* admin categories */
+.icon{width:128px;height:128px;text-align:center;display:inline-block;vertical-align:middle;}
+.icon .txt{padding:4px;display:inline-block;font-size:14px;margin-top:6px;}
+.categorie{background:url("img/folder.png") no-repeat;}
+.categorie .txt{width:96px;text-align:left;}
+.page{background:url("img/new_page.png") no-repeat;}
+.page .txt{width:72px;text-align:left;}
+.caption{font-size:0.75em;color:#888;}
+.new{opacity:0.7;}
+.new .txt{text-align:center;}
+.new img, .offline{opacity:0.5;}
+.categorie input{font-size:14px;color:#00f;border:none;background:transparent;}
+
+/* admin pages */
+#page_edit{font-size:0.92em;}
+#page_edit td{vertical-align:top;}
+#page_edit input[type=text]{border:none;border-bottom:dashed 1px #ddd;padding-left:4px;width:550px;}
+.page_segment{margin-bottom:16px;padding:15px;background-color:#ffffff;}
+.new_segment{border:dashed 4px #ccc;margin-bottom:16px;padding:15px;background-color:#eef;}
+.segment_menubar{border:solid 1px #eea;background:#ffe;border-radius:8px;padding:2px 12px;}
+
+/* admin elements */
+.elmt table{width:930px;margin:2px 12px;boder:solid 1px #ccc;}
+.elmt table tr td{border-bottom: 1px solid #ddd;padding:4px 12px;background-color:#fff;color:#333;font-size:0.9em;}
+.actif0{background-color:#eee;color:#888;opacity:0.4;}
+.elmt input[type=text]{border:none;border-bottom:dotted 1px #bbb;height:24px;font-size:14px;}
+
+#elmt_edit input[type=text]{border:none;border-bottom:dashed 1px #ddd;padding-left:4px;width:550px;}
+#elmt_parm_edit table{width:100%;}
+
+#element_files{width:930px;text-align:center;}
+#element_files td{background-color:#eee;vertical-align:top;cursor:pointer;}
+#element_files img{position:relative;top:4px;left:0px;}
+
+
+/* admin documents */
+.public0{background-color:#eee;color:#888;opacity:0.4;}

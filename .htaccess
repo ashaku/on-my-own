@@ -1,0 +1,10 @@
+
+# A rule to deal with 404 => redirect to the main generation script to take care of it
+ErrorDocument 404 http://127.0.0.1/projects/onMyOwn/page.php
+
+Options +FollowSymlinks
+RewriteEngine on
+# URL rewriting : redirect [idPage]-a-page-title-used-in-link to page.php?id=[idPage]
+RewriteRule ^([0-9]+)-[a-z\-]+\.html$   page.php?id=$1 [L]
+# A redirection to home if no page name is called
+RewriteRule ^$ 1-home.html
